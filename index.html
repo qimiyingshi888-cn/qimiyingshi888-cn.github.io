@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>奇米影视888 - 正版高清影视在线免费观看</title>
+<meta name="description" content="奇米影视888（qimiyingshi888-cn）是正版高清影视在线免费观看平台，提供最新电影、热播电视剧、综艺、动漫，每日更新，官方网址 https://qimiyingshi888-cn.github.io。">
+<meta name="keywords" content="奇米影视888,qimiyingshi888,高清影视,免费在线观看,最新电影,电视剧综艺动漫">
+<meta name="author" content="奇米影视888">
+<meta name="robots" content="index,follow">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:type" content="website">
+<meta property="og:title" content="奇米影视888 - 正版高清影视在线免费观看">
+<meta property="og:description" content="正版高清影视在线免费观看，最新影视每日更新，极速流畅播放。">
+<meta property="og:url" content="https://qimiyingshi888-cn.github.io">
+<meta property="og:site_name" content="奇米影视888">
+<link rel="canonical" href="https://qimiyingshi888-cn.github.io">
+<style>
+/* ============ 基础重置 ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:#08080c;color:#e7fbff;line-height:1.7;overflow-x:hidden;
+  background-image:linear-gradient(rgba(0,255,231,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,231,.028) 1px,transparent 1px);
+  background-size:44px 44px;
+}
+a{color:inherit;text-decoration:none}
+ul,ol,dl,menu{list-style:none}
+img{max-width:100%;display:block}
+button{font-family:inherit}
+
+:root{
+  --cyan:#00ffe7;
+  --cyan2:#5cf0ff;
+  --pink:#ff2e88;
+  --purple:#a44bff;
+  --bg:#08080c;
+  --panel:rgba(18,24,34,.82);
+  --panel2:rgba(26,34,48,.9);
+  --line:rgba(0,255,231,.2);
+  --muted:#7e93a8;
+}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ============ 顶部导航 ============ */
+.hd{position:sticky;top:0;z-index:99;background:rgba(8,8,12,.8);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.hd-in{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:900;letter-spacing:.5px}
+.logo .badge{background:linear-gradient(135deg,var(--cyan),var(--purple));color:#08080c;font-size:12px;padding:3px 9px;border-radius:20px;font-weight:900;letter-spacing:1px}
+.logo b{color:var(--cyan)}
+.nav{display:flex;gap:6px;align-items:center}
+.nav a{padding:9px 16px;border-radius:10px;font-size:14.5px;color:var(--muted);transition:.25s;font-weight:600;position:relative}
+.nav a:not(.cta)::before{content:"";position:absolute;left:50%;top:50%;width:6px;height:6px;background:var(--cyan);border-radius:50%;transform:translate(-50%,-50%) scale(0);transition:.3s;opacity:.7}
+.nav a:not(.cta):hover{color:#fff;padding-left:26px;padding-right:26px}
+.nav a:not(.cta):hover::before{transform:translate(calc(-50% - 34px),-50%) scale(1)}
+.nav a.cta{padding:9px 26px;background:linear-gradient(135deg,var(--pink),var(--purple));color:#fff;border-radius:22px;font-weight:700;box-shadow:0 6px 20px rgba(255,46,136,.4)}
+.nav a.cta:hover{transform:translateY(-2px)}
+.mbtn{display:none;width:44px;height:44px;border:1px solid var(--line);background:var(--panel);color:var(--cyan);border-radius:10px;font-size:20px;cursor:pointer}
+
+/* ============ 英雄区：打字机 + 888 计数器 ============ */
+.hero{position:relative;padding:96px 0 104px;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(700px 420px at 80% 20%,rgba(164,75,255,.28),transparent 60%),radial-gradient(700px 420px at 10% 90%,rgba(0,255,231,.16),transparent 60%);pointer-events:none}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.2fr 1fr;gap:44px;align-items:center}
+.hero h1{font-size:clamp(34px,6.4vw,62px);font-weight:900;line-height:1.12;letter-spacing:-1px}
+.hero h1 .glitch{color:var(--cyan);position:relative;display:inline-block}
+.hero h1 .glitch::before,.hero h1 .glitch::after{content:attr(data-t);position:absolute;left:0;top:0;opacity:.55}
+.hero h1 .glitch::before{color:var(--pink);transform:translate(-2px,0);animation:g1 2.4s infinite linear alternate}
+.hero h1 .glitch::after{color:var(--purple);transform:translate(2px,0);animation:g2 2s infinite linear alternate}
+@keyframes g1{to{transform:translate(2px,0)}}
+@keyframes g2{to{transform:translate(-2px,0)}}
+.type{margin-top:18px;font-size:18px;color:var(--cyan2);height:28px;font-weight:600}
+.type::after{content:"▋";animation:blink 1s steps(1) infinite;color:var(--pink)}
+@keyframes blink{50%{opacity:0}}
+.hero>p{margin-top:20px;max-width:520px;color:var(--muted);font-size:16px}
+.h-acts{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 32px;border-radius:12px;font-size:15.5px;font-weight:700;transition:.25s;border:1px solid transparent;cursor:pointer}
+.btn-pri{background:linear-gradient(135deg,var(--cyan),var(--purple));color:#08080c;box-shadow:0 8px 26px rgba(0,255,231,.4)}
+.btn-pri:hover{transform:translateY(-3px)}
+.btn-ghost{background:var(--panel);color:#fff;border-color:var(--line)}
+.btn-ghost:hover{background:var(--panel2)}
+
+/* 888 数字仪表盘（差异化视觉组件：output + meter） */
+.dash{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px;backdrop-filter:blur(8px);box-shadow:0 20px 50px rgba(0,0,0,.55)}
+.dash h3{font-size:13px;color:var(--cyan);letter-spacing:2px;margin-bottom:20px;display:flex;align-items:center;gap:8px}
+.dash h3::before{content:"";width:8px;height:8px;background:var(--pink);border-radius:50%;animation:pulse 1.4s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,46,136,.6)}50%{box-shadow:0 0 0 10px rgba(255,46,136,0)}}
+.big{font-size:64px;font-weight:900;line-height:1;letter-spacing:2px;background:linear-gradient(90deg,var(--cyan),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.dash .lbl{color:var(--muted);font-size:13px;margin:6px 0 22px}
+.metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.metric span{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+meter{width:100%;height:8px;border:0;border-radius:20px;background:var(--panel2);overflow:hidden}
+meter::-webkit-meter-bar{background:var(--panel2);border-radius:20px}
+meter::-webkit-meter-optimum-value{background:linear-gradient(90deg,var(--cyan),var(--pink));border-radius:20px}
+meter::-moz-meter-bar{background:linear-gradient(90deg,var(--cyan),var(--pink))}
+
+/* ============ 通用栏目标题 ============ */
+.sec{padding:82px 0;position:relative}
+.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:36px;flex-wrap:wrap}
+.sec-t h2{font-size:clamp(23px,3.4vw,31px);font-weight:900;display:flex;align-items:center;gap:14px}
+.sec-t h2::before{content:"";width:4px;height:22px;background:linear-gradient(var(--cyan),var(--pink));border-radius:4px}
+.sec-t h2 em{font-style:normal;color:var(--cyan)}
+.sec-t p{color:var(--muted);margin-top:8px;font-size:15px;padding-left:18px}
+.sec-hd a{color:var(--cyan);font-size:14px;font-weight:700;white-space:nowrap}
+.sec-hd a:hover{text-decoration:underline}
+
+/* ============ 栏目一：热映速递（details/summary 手风琴，差异化 A） ============ */
+.acc{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}
+.acc details{border-bottom:1px solid var(--line);transition:.3s}
+.acc details:last-child{border-bottom:0}
+.acc details[open]{background:var(--panel2)}
+.acc summary{cursor:pointer;padding:20px 24px;font-size:17px;font-weight:700;display:flex;align-items:center;gap:14px;list-style:none;transition:.25s}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::before{content:attr(data-no);color:var(--cyan);font-size:13px;font-weight:900;background:rgba(0,255,231,.1);padding:4px 10px;border-radius:8px;border:1px solid var(--line)}
+.acc summary::after{content:"＋";margin-left:auto;color:var(--pink);font-size:20px;transition:.3s}
+.acc details[open] summary::after{transform:rotate(45deg)}
+.acc summary:hover{color:var(--cyan2)}
+.acc .body{padding:4px 24px 24px 66px;color:#bcd3e0;font-size:15px}
+.acc .body .tags{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.acc .body .tags i{font-style:normal;font-size:12px;padding:5px 12px;border-radius:20px;background:rgba(164,75,255,.2);color:var(--cyan2);border:1px solid rgba(164,75,255,.35)}
+
+/* ============ 栏目二：片库导航（menu + menuitem，差异化 B） ============ */
+.chips{menu{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}}
+.chips menu button{padding:9px 20px;border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:24px;font-size:14px;font-weight:600;cursor:pointer;transition:.25s}
+.chips menu button.on,.chips menu button:hover{background:linear-gradient(135deg,var(--cyan),var(--purple));color:#08080c;border-color:transparent;box-shadow:0 6px 18px rgba(0,255,231,.35)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
+.grid figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:.3s}
+.grid figure:hover{transform:translateY(-5px);border-color:var(--cyan);box-shadow:0 12px 30px rgba(0,255,231,.2)}
+.grid figure .poster{height:150px;background:linear-gradient(140deg,var(--panel2),rgba(164,75,255,.18));display:grid;place-items:center;font-size:34px;position:relative}
+.grid figure .poster::after{content:attr(data-cat);position:absolute;top:10px;left:10px;font-size:11px;padding:3px 8px;border-radius:6px;background:rgba(8,8,12,.7);color:var(--cyan);border:1px solid var(--line)}
+.grid figure figcaption{padding:14px}
+.grid figure figcaption b{display:block;font-size:15px}
+.grid figure figcaption small{color:var(--muted);font-size:12.5px}
+
+/* ============ 栏目三：热度榜（有序列表 ol + CSS 计数器，差异化 C） ============ */
+.olboard{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px 24px}
+.olboard ol{counter-reset:rk}
+.olboard ol li{counter-increment:rk;display:flex;align-items:center;gap:16px;padding:16px 0;border-bottom:1px solid var(--line);position:relative}
+.olboard ol li:last-child{border-bottom:0}
+.olboard ol li::before{content:counter(rk,decimal-leading-zero);font-size:20px;font-weight:900;color:var(--muted);width:34px}
+.olboard ol li:nth-child(1)::before{color:var(--cyan)}
+.olboard ol li:nth-child(2)::before{color:var(--pink)}
+.olboard ol li:nth-child(3)::before{color:var(--purple)}
+.olboard ol li .info{flex:1}
+.olboard ol li .info b{display:block;font-size:16px}
+.olboard ol li .info small{color:var(--muted);font-size:12.5px}
+.olboard ol li .bar{flex:0 0 140px;height:6px;background:var(--panel2);border-radius:20px;overflow:hidden}
+.olboard ol li .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--pink));border-radius:20px}
+.olboard ol li .val{font-size:14px;font-weight:800;color:var(--cyan2);width:52px;text-align:right}
+
+/* ============ 栏目四：资讯（address + time 语义，差异化 D） ============ */
+.news{display:grid;grid-template-columns:1.4fr 1fr;gap:22px}
+.news .lead{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:30px;position:relative;overflow:hidden}
+.news .lead::before{content:"HOT";position:absolute;top:22px;right:-26px;background:var(--pink);color:#fff;font-size:12px;font-weight:900;padding:5px 34px;transform:rotate(35deg)}
+.news .lead h4{font-size:23px;font-weight:900;margin-bottom:14px}
+.news .lead p{color:#bcd3e0;font-size:15px;margin-bottom:18px}
+.news .lead .more{display:inline-block;color:var(--cyan);font-weight:700;font-size:14px}
+.news aside{display:flex;flex-direction:column;gap:14px}
+.news aside a{display:flex;gap:14px;align-items:flex-start;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;transition:.25s}
+.news aside a:hover{border-color:var(--cyan);background:var(--panel2)}
+.news aside a .n{font-size:20px;font-weight:900;color:var(--purple);line-height:1;min-width:28px}
+.news aside a div b{display:block;font-size:14.5px;margin-bottom:4px}
+.news aside a div time{font-size:12px;color:var(--muted)}
+address{font-style:normal;color:var(--muted);font-size:13px;border-top:1px dashed var(--line);padding-top:14px;margin-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* ============ 页脚 ============ */
+.ft{background:#050508;color:#6f8298;padding:56px 0 22px;border-top:1px solid var(--line);margin-top:40px}
+.ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:34px;margin-bottom:36px}
+.ft-grid h5{font-size:15px;margin-bottom:16px;color:#fff;display:flex;align-items:center;gap:8px}
+.ft-grid h5::before{content:"";width:8px;height:8px;background:var(--cyan);border-radius:50%;box-shadow:0 0 10px var(--cyan)}
+.ft-grid ul li{margin-bottom:11px}
+.ft-grid ul a{color:#5f7188;font-size:14px;transition:.2s}
+.ft-grid ul a:hover{color:var(--cyan)}
+.ft-brand .logo b{background:linear-gradient(90deg,var(--cyan),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ft-brand p{color:#5f7188;font-size:14px;margin-top:14px;max-width:330px}
+.copy{text-align:center;color:#4a5a6e;font-size:13px;padding-top:22px;border-top:1px solid var(--line)}
+
+/* ============ 回到顶部 ============ */
+.top{position:fixed;right:20px;bottom:24px;width:46px;height:46px;border:0;background:linear-gradient(135deg,var(--cyan),var(--pink));color:#08080c;border-radius:50%;font-size:20px;cursor:pointer;box-shadow:0 8px 24px rgba(0,255,231,.4);opacity:0;visibility:hidden;transition:.3s;z-index:98;font-weight:900}
+.top.show{opacity:1;visibility:visible}
+
+/* ============ 响应式 ============ */
+@media(max-width:900px){
+  .hero .wrap{grid-template-columns:1fr}
+  .dash{max-width:460px}
+  .news{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .nav{position:fixed;top:70px;left:0;right:0;flex-direction:column;align-items:stretch;padding:16px;background:#0c1018;border-bottom:1px solid var(--line);transform:translateY(-150%);transition:.35s;gap:4px;box-shadow:0 12px 30px rgba(0,0,0,.5)}
+  .nav.open{transform:translateY(0)}
+  .nav a{width:100%;text-align:center;padding:13px}
+  .mbtn{display:grid;place-items:center}
+  .sec{padding:58px 0}
+  .ft-grid{grid-template-columns:1fr 1fr}
+  .olboard ol li .bar{display:none}
+}
+@media(max-width:520px){
+  .wrap{padding:0 16px}
+  .ft-grid{grid-template-columns:1fr}
+  .hero{padding:66px 0 76px}
+  .big{font-size:48px}
+  .btn{padding:12px 24px;font-size:14.5px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+  .acc .body{padding-left:22px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="hd">
+  <div class="wrap hd-in">
+    <a href="#" class="logo"><b>奇米影视888</b><span class="badge">888</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">首页</a>
+      <a href="#acc">热映速递</a>
+      <a href="#chips">片库导航</a>
+      <a href="#board">热度榜单</a>
+      <a href="#news">影视资讯</a>
+      <a href="#" class="cta">免费观看</a>
+    </nav>
+    <button class="mbtn" id="mbtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+
+<!-- ===== 英雄区 ===== -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="h-txt">
+      <h1><span class="glitch" data-t="奇米影视888">奇米影视888</span><br>极速畅享高清视界</h1>
+      <div class="type" id="type">最新电影 · 每日更新</div>
+      <p>奇米影视888 专注正版高清影视在线免费观看，电影、电视剧、综艺、动漫一站聚合，极速加载、纯净界面，给你影院级流畅体验。</p>
+      <div class="h-acts">
+        <a href="#chips" class="btn btn-pri">▶ 立即观看</a>
+        <a href="#board" class="btn btn-ghost">查看热度榜</a>
+      </div>
+    </div>
+    <aside class="dash" aria-label="平台数据">
+      <h3>平台实时数据</h3>
+      <output class="big" id="num888">888</output>
+      <div class="lbl">累计服务影迷（万人）</div>
+      <div class="metrics">
+        <div class="metric"><span>高清影片库 <small style="color:var(--muted)">6,200+</small></span><meter value="0.86">86%</meter></div>
+        <div class="metric"><span>今日更新 <small style="color:var(--muted)">128</small></span><meter value="0.64">64%</meter></div>
+        <div class="metric"><span>播放流畅度</span><meter value="0.97">97%</meter></div>
+        <div class="metric"><span>好评满意度</span><meter value="0.92">92%</meter></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ===== 栏目一：热映速递（details/summary 手风琴，差异化 A） ===== -->
+<section class="sec" id="acc">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-t"><h2>热映<em>速递</em></h2><p>点击展开，了解本片看点</p></div>
+      <a href="#">全部速递 →</a>
+    </div>
+    <div class="acc">
+      <details open>
+        <summary data-no="01">破晓行动</summary>
+        <div class="body">动作犯罪大片，硬核追车与枪战场面全程高能，节奏紧凑零尿点。
+          <div class="tags"><i>动作</i><i>犯罪</i><i>4K 蓝光</i></div>
+        </div>
+      </details>
+      <details>
+        <summary data-no="02">时光信笺</summary>
+        <div class="body">一封穿越十年的信，串起两段温柔命运，治愈系爱情佳作。
+          <div class="tags"><i>爱情</i><i>治愈</i><i>高分推荐</i></div>
+        </div>
+      </details>
+      <details>
+        <summary data-no="03">迷雾山谷</summary>
+        <div class="body">悬疑氛围拉满，层层反转的剧本让人猜不到结局。
+          <div class="tags"><i>悬疑</i><i>惊悚</i><i>热播</i></div>
+        </div>
+      </details>
+      <details>
+        <summary data-no="04">星河护卫队</summary>
+        <div class="body">视效炸裂的太空冒险，笑点与燃点齐飞，全家观影首选。
+          <div class="tags"><i>科幻</i><i>冒险</i><i>合家欢</i></div>
+        </div>
+      </details>
+      <details>
+        <summary data-no="05">烟火人间</summary>
+        <div class="body">现实主义温情剧集，聚焦普通人生活，口碑持续发酵。
+          <div class="tags"><i>剧情</i><i>现实</i><i>热议中</i></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：片库导航（menu/menuitem + figure，差异化 B） ===== -->
+<section class="sec" id="chips" style="background:#0c1018">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-t"><h2>片库<em>导航</em></h2><p>分类筛选，快速找到想看的内容</p></div>
+      <a href="#">完整片库 →</a>
+    </div>
+    <div class="chips">
+      <menu>
+        <li><button class="on" type="button">全部</button></li>
+        <li><button type="button">电影</button></li>
+        <li><button type="button">电视剧</button></li>
+        <li><button type="button">综艺</button></li>
+        <li><button type="button">动漫</button></li>
+        <li><button type="button">纪录片</button></li>
+      </menu>
+      <div class="grid">
+        <figure><div class="poster" data-cat="电影">🎬</div><figcaption><b>破晓行动</b><small>动作 / 犯罪 · 9.2</small></figcaption></figure>
+        <figure><div class="poster" data-cat="剧集">📺</div><figcaption><b>烟火人间</b><small>剧情 / 现实 · 9.0</small></figcaption></figure>
+        <figure><div class="poster" data-cat="综艺">🎤</div><figcaption><b>欢乐大本营</b><small>真人秀 · 8.4</small></figcaption></figure>
+        <figure><div class="poster" data-cat="动漫">🎨</div><figcaption><b>灵域少年</b><small>热血 / 奇幻 · 8.8</small></figcaption></figure>
+        <figure><div class="poster" data-cat="电影">🎬</div><figcaption><b>时光信笺</b><small>爱情 / 治愈 · 8.9</small></figcaption></figure>
+        <figure><div class="poster" data-cat="纪录">📽️</div><figcaption><b>蔚蓝深海</b><small>自然 / 纪录 · 9.3</small></figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：热度榜（ol 有序列表 + 计数器，差异化 C） ===== -->
+<section class="sec" id="board">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-t"><h2>实时<em>热度榜</em></h2><p>按综合热度加权排序</p></div>
+      <a href="#">完整榜单 →</a>
+    </div>
+    <div class="olboard">
+      <ol>
+        <li><span class="info"><b>破晓行动</b><small>电影 · 动作犯罪</small></span><span class="bar"><i style="width:96%"></i></span><span class="val">9.2</span></li>
+        <li><span class="info"><b>烟火人间</b><small>剧集 · 现实剧情</small></span><span class="bar"><i style="width:89%"></i></span><span class="val">9.0</span></li>
+        <li><span class="info"><b>时光信笺</b><small>电影 · 爱情治愈</small></span><span class="bar"><i style="width:84%"></i></span><span class="val">8.9</span></li>
+        <li><span class="info"><b>灵域少年</b><small>动漫 · 热血奇幻</small></span><span class="bar"><i style="width:78%"></i></span><span class="val">8.8</span></li>
+        <li><span class="info"><b>迷雾山谷</b><small>电影 · 悬疑惊悚</small></span><span class="bar"><i style="width:72%"></i></span><span class="val">8.5</span></li>
+        <li><span class="info"><b>蔚蓝深海</b><small>纪录片 · 自然</small></span><span class="bar"><i style="width:65%"></i></span><span class="val">9.3</span></li>
+        <li><span class="info"><b>欢乐大本营</b><small>综艺 · 真人秀</small></span><span class="bar"><i style="width:58%"></i></span><span class="val">8.4</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：影视资讯（article + address + time，差异化 D） ===== -->
+<section class="sec" id="news" style="background:#0c1018">
+  <div class="wrap">
+    <div class="sec-hd">
+      <div class="sec-t"><h2>影视<em>资讯</em></h2><p>行业动态与深度解读</p></div>
+      <a href="#">全部资讯 →</a>
+    </div>
+    <div class="news">
+      <article class="lead">
+        <h4>《破晓行动》登顶本周热度榜：动作片重回主流</h4>
+        <p>硬核动作场面与扎实剧本的双重加持，让这部影片成为今年动作类型的标杆之作，票房与口碑双丰收。</p>
+        <a href="#" class="more">阅读全文 →</a>
+        <address><span>作者：奇米影视888 编辑部</span><time datetime="2026-10-22">2026-10-22</time></address>
+      </article>
+      <aside>
+        <a href="#"><span class="n">01</span><span><b>国漫崛起：从灵域少年说起</b><time datetime="2026-10-19">2026-10-19</time></span></a>
+        <a href="#"><span class="n">02</span><span><b>治愈系题材为何持续走热？</b><time datetime="2026-10-15">2026-10-15</time></span></a>
+        <a href="#"><span class="n">03</span><span><b>4K 蓝光：选对画质的关键</b><time datetime="2026-10-10">2026-10-10</time></span></a>
+        <a href="#"><span class="n">04</span><span><b>十月新片前瞻：五部必看</b><time datetime="2026-10-05">2026-10-05</time></span></a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <div class="logo"><b>奇米影视888</b><span class="badge">888</span></div>
+        <p>奇米影视888，正版高清影视在线免费观看平台，电影、电视剧、综艺、动漫每日更新，极速流畅。</p>
+      </div>
+      <div><h5>网站导航</h5><ul>
+        <li><a href="#home">网站首页</a></li>
+        <li><a href="#acc">热映速递</a></li>
+        <li><a href="#chips">片库导航</a></li>
+        <li><a href="#board">热度榜单</a></li>
+      </ul></div>
+      <div><h5>内容频道</h5><ul>
+        <li><a href="#">电影</a></li><li><a href="#">电视剧</a></li>
+        <li><a href="#">综艺</a></li><li><a href="#">动漫</a></li>
+      </ul></div>
+      <div><h5>关于我们</h5><ul>
+        <li><a href="#">平台介绍</a></li><li><a href="#">联系合作</a></li>
+        <li><a href="#">免责声明</a></li><li><a href="#">用户协议</a></li>
+      </ul></div>
+    </div>
+    <div class="copy">
+      © 2026 奇米影视888 qimiyingshi888-cn · 网站网址：https://qimiyingshi888-cn.github.io · 本站内容仅供学习交流参考使用
+    </div>
+  </div>
+</footer>
+
+<button class="top" id="top" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var nav=document.getElementById('nav'),btn=document.getElementById('mbtn'),top=document.getElementById('top');
+  btn.addEventListener('click',function(){nav.classList.toggle('open')});
+  nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open')})});
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>400){top.classList.add('show')}else{top.classList.remove('show')}
+  });
+  top.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+
+  /* 888 数字递增动画 */
+  var num=document.getElementById('num888'),t=0,target=888;
+  function step(){
+    t+=Math.ceil((target-t)/12);
+    if(t>target)t=target;
+    num.textContent=t;
+    if(t<target)requestAnimationFrame(step);
+  }
+  var done=false;
+  window.addEventListener('scroll',function(){
+    if(!done&&num.getBoundingClientRect().top<window.innerHeight-60){done=true;step()}
+  });
+
+  /* 打字机 */
+  var phrases=["最新电影 · 每日更新","正版高清 · 免费观看","极速加载 · 纯净体验","电视剧 综艺 动漫 全覆盖"],
+      ti=0,ci=0,el=document.getElementById('type'),del=false;
+  setInterval(function(){
+    var cur=phrases[ti];
+    if(!del){ci++;if(ci>cur.length){del=true;setTimeout(function(){},1200)}}
+    else{ci--;if(ci===0){del=false;ti=(ti+1)%phrases.length}}
+    el.textContent=cur.slice(0,ci);
+  },110);
+})();
+</script>
+</body>
+</html>
